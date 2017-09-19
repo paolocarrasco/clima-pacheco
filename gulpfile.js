@@ -126,8 +126,7 @@ gulp.task('serve:dist', ['default'], () => {
   });
 });
 
-  gulp.watch('app/scripts/**/*.js', ['scripts']);
-});
+gulp.watch('app/scripts/**/*.js', ['scripts']);
 
 // inject bower components
 gulp.task('wiredep', () => {
