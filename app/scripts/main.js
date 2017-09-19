@@ -1,1 +1,3 @@
-console.log('\'Allo \'Allo!');
+import greeting from './app';
+
+greeting('Paolo');
